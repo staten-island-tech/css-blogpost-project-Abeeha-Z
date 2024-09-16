@@ -1,8 +1,5 @@
-html, body* {
-    font-size: 16px;
-}
-
-body {
+html, body *{
+    body {
     background-color:rgb(158, 238, 254);
     color: black;
     text-align: left;
@@ -10,34 +7,71 @@ body {
     font-weight: 300;
     font-style: normal;
 
+    h1 {
+        font-size:60px;
+        font-weight:800;
+        text-align:center
+    }
+
+    #post1-header {
+        font-size:50px;
+        font-weight:700;
+    }
+
+    #post1-pg {
+        background-color:white;
+        border: 3px solid rgb(20, 97, 142);
+        font-size: 30px;
+        font-weight:450;
+        }
+
+    .post1 {
+        color:rgb(20, 97, 142);
+        width:20%;
+        padding: 10px;
+        margin: 15px;
+        text-align: left;
+    }
+
+    #post2-header {
+        font-size:50px;
+        font-weight:700;
+    }
+
+    #post2-pg {
+        background-color:white;
+        border: 3px solid rgb(201, 123, 94);
+        font-size: 30px;
+        font-weight:450;
+        }
+
+    .post2 {
+        color: rgb(201, 123, 94);
+        width:20%;
+        padding: 10px;
+        margin: 15px;
+        text-align: left;
+        }
+
+
+    #post3-header {
+        font-size:50px;
+        font-weight:700;
+        }
+        
+    #post3-pg {
+        background-color:white;
+        border: 3px solid rgb(201, 123, 94);
+        font-size: 30px;
+        font-weight:450;
+        }
+        
+    .post3 {
+        color: rgb(201, 123, 94);
+        width:20%;
+        padding: 10px;
+        margin: 15px;
+        text-align: left;
+    }
 }
-h1 {
-    font-size:60px;
-    font-weight:800;
-    text-align:center
 }
-
-#post1-header{
-    font-size:50px;
-    font-size:50px;
-    font-weight:700;
-}
-
-#post1-pg {
-    background-color:white;
-    border: 3px solid rgb(20, 97, 142);
-    font-size: 30px;
-    font-weight:450;
-}
-
-.post1 {
-    color:rgb(20, 97, 142);
-    width:30%;
-    padding: 10px;
-    margin: 15px;
-    text-align: left
-}
-
-
-
-
