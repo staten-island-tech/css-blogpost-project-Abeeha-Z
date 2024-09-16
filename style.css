@@ -1,30 +1,43 @@
 html, body* {
     font-size: 16px;
-    font-family: <link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet" >;
 }
 
 body {
     background-color:rgb(158, 238, 254);
     color: black;
-    text-align: center
+    text-align: left;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 
 }
+h1 {
+    font-size:60px;
+    font-weight:800;
+    text-align:center
+}
 
-h1{
+#post1-header{
     font-size:50px;
+    font-size:50px;
+    font-weight:700;
 }
 
-.titles {
-    font-size: 40px;
-
+#post1-pg {
+    background-color:white;
+    border: 3px solid rgb(20, 97, 142);
+    font-size: 30px;
+    font-weight:450;
 }
 
-.text{
-    font-size: 25px;
-    border: 3px solid black;
-    margin: 20px;
+.post1 {
+    color:rgb(20, 97, 142);
+    width:30%;
+    padding: 10px;
+    margin: 15px;
     text-align: left
-
 }
+
+
 
 
