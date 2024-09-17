@@ -1,47 +1,17 @@
-/* html, body* {
-    font-size: 16px;
-    font-family: <link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet" >;
-}
-
-body {
-    background-color:rgb(158, 238, 254);
-    color: black;
-    text-align: center
-
-}
-
-h1{
-    font-size:50px;
-}
-
-.titles {
-    font-size: 40px;
-
-}
-
-.text{
-    font-size: 25px;
-    border: 3px solid black;
-    margin: 20px;
-    text-align: left
-
-}
-
- */
 html,
 body,
 *{
     font-family: "Rajdhani", sans-serif;
 }
  body {
-    background-color: rgb(158, 238, 254);
+    background-image: linear-gradient(to right, rgb(18, 83, 121) , rgb(158, 76, 47), rgb(20, 93, 62));
     color: black;
     text-align: left;
 
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 800;
     text-align: center;
 }
@@ -51,20 +21,33 @@ h1 {
     font-weight: 700;
 }
 
-
 #post1-pg {
-    background-color: white;
-    border: 3px solid rgb(20, 97, 142);
     font-size: 30px;
     font-weight: 450;
 }
 
+#post1-box {
+    border: 6px solid rgb(20,97,142);
+    width: 28%;
+    background-color: white;
+    display: inline-block
+
+}
+
 .post1 {
     color: rgb(20, 97, 142);
-    width: 20%;
     padding: 10px;
     margin: 15px;
-    text-align: left;
+    text-align: center;
+}
+
+#link-post1 {
+    font-size:25px;
+}
+
+#penguin {
+    width:400px;
+    border: 6px solid rgb(20,97,142);
 }
 
 #post2-header {
@@ -73,39 +56,66 @@ h1 {
 }
 
 #post2-pg {
-    background-color:white;
-    border: 3px solid rgb(201, 123, 94);
     font-size: 30px;
-    font-weight:450;
+    font-weight: 450;
+}
+
+#post2-box {
+    border :6px solid rgb(201 ,123 ,94) ;
+    width: 28%;
+    background-color: white;
+    display: inline-block;
+
 }
 
 .post2 {
-    color: rgb(201, 123, 94);
-    width:20%;
-    padding:10px;
-    margin:15px;
-    text-align:left;
+    color: rgb(201 ,123 ,94);
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+#cute-panda {
+    width:400px;
+    border: 6px solid rgb(201,123,94);
+}
+
+
+#link-post2 {
+    font-size:25px;
 }
 
 
 #post3-header {
-   font-size :50px ;
-   font-weight :700 ;
+    font-size: 50px;
+    font-weight: 700;
 }
-   
+
 #post3-pg {
-   background-color :white ;
-   border :3px solid rgb(201 ,123 ,94) ;
-   font-size :30px ;
-   font-weight :450 ;
+    font-size: 30px;
+    font-weight: 450;
 }
-   
+
+#post3-box {
+    border :6px solid rgb(28, 123, 83) ;
+    width: 28%;
+    background-color: white;
+    display: inline-block
+
+}
+
 .post3 {
-   color :rgb(201 ,123 ,94) ;
-   width :20% ;
-   padding :10px ;
-   margin :15px ;
-   text-align :left ;
+    color: rgb(28, 123, 83);
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
 }
 
+#axolotl-img {
+    width:400px;
+    border: 6px solid rgb(28, 123, 83);
+}
 
+#link-post3 {
+    font-size:25px;
+}
